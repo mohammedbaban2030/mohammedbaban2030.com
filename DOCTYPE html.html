@@ -1,0 +1,681 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;en&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;Design Engineering Portfolio - Innovative
+Solutions and Creative Designs&lt;/title&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://kit.fontawesome.com/a076d05399.js&quot;
+crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;style&gt;</p>
+
+<p class=MsoNormal>        body {</p>
+
+<p class=MsoNormal>            font-family: 'Segoe UI', Tahoma, Geneva,
+Verdana, sans-serif;</p>
+
+<p class=MsoNormal>            overflow-x: hidden;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .section {</p>
+
+<p class=MsoNormal>            min-height: 100vh;</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>            justify-content: center;</p>
+
+<p class=MsoNormal>            padding: 2rem;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .hero-bg {</p>
+
+<p class=MsoNormal>            background: linear-gradient(135deg, #667eea 0%,
+#764ba2 100%);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .skill-bar {</p>
+
+<p class=MsoNormal>            height: 10px;</p>
+
+<p class=MsoNormal>            background: #e0e0e0;</p>
+
+<p class=MsoNormal>            border-radius: 5px;</p>
+
+<p class=MsoNormal>            overflow: hidden;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .skill-fill {</p>
+
+<p class=MsoNormal>            background: #667eea;</p>
+
+<p class=MsoNormal>            height: 100%;</p>
+
+<p class=MsoNormal>            border-radius: 5px;</p>
+
+<p class=MsoNormal>            transition: width 1.5s ease-in-out;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .project-card {</p>
+
+<p class=MsoNormal>            transform: scale(1);</p>
+
+<p class=MsoNormal>            transition: transform 0.3s ease;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .project-card:hover {</p>
+
+<p class=MsoNormal>            transform: scale(1.05);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .typewriter {</p>
+
+<p class=MsoNormal>            display: inline-block;</p>
+
+<p class=MsoNormal>            border-right: 2px solid;</p>
+
+<p class=MsoNormal>            animation: blink 1s infinite;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        @keyframes blink {</p>
+
+<p class=MsoNormal>            0%, 50% { border-color: transparent; }</p>
+
+<p class=MsoNormal>            51%, 100% { border-color: white; }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .dark-mode {</p>
+
+<p class=MsoNormal>            background: #1a1a1a;</p>
+
+<p class=MsoNormal>            color: #ffffff;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .dark-mode .skill-fill {</p>
+
+<p class=MsoNormal>            background: #f39c12;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        @media (max-width: 768px) {</p>
+
+<p class=MsoNormal>            .hero-text {</p>
+
+<p class=MsoNormal>                font-size: 2rem;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            .projects-grid {</p>
+
+<p class=MsoNormal>                grid-template-columns: 1fr;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        .fade-in {</p>
+
+<p class=MsoNormal>            animation: fadeInUp 1s ease-out;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        @keyframes fadeInUp {</p>
+
+<p class=MsoNormal>            from {</p>
+
+<p class=MsoNormal>                opacity: 0;</p>
+
+<p class=MsoNormal>                transform: translateY(20px);</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            to {</p>
+
+<p class=MsoNormal>                opacity: 1;</p>
+
+<p class=MsoNormal>                transform: translateY(0);</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>    &lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body class=&quot;bg-gray-100 text-gray-900&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;!-- Navigation --&gt;</p>
+
+<p class=MsoNormal>    &lt;nav class=&quot;fixed top-0 w-full bg-white
+shadow-md z-10&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4 py-3 flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;a href=&quot;#home&quot; class=&quot;text-xl
+font-bold text-indigo-600&quot;&gt;Portfolio&lt;/a&gt;</p>
+
+<p class=MsoNormal>            &lt;ul class=&quot;flex space-x-6&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;li&gt;&lt;a href=&quot;#about&quot;
+class=&quot;hover:text-indigo-600
+transition&quot;&gt;About&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                &lt;li&gt;&lt;a href=&quot;#skills&quot;
+class=&quot;hover:text-indigo-600
+transition&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                &lt;li&gt;&lt;a href=&quot;#projects&quot;
+class=&quot;hover:text-indigo-600
+transition&quot;&gt;Projects&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                &lt;li&gt;&lt;a href=&quot;#contact&quot;
+class=&quot;hover:text-indigo-600
+transition&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>            &lt;/ul&gt;</p>
+
+<p class=MsoNormal>            &lt;button id=&quot;darkModeToggle&quot;
+class=&quot;bg-indigo-600 text-white px-3 py-1 rounded
+hover:bg-indigo-700&quot;&gt;&lt;i class=&quot;fas
+fa-moon&quot;&gt;&lt;/i&gt;&lt;/button&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/nav&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Hero Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;home&quot; class=&quot;section
+hero-bg text-white&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;text-center fade-in&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h1 class=&quot;text-5xl hero-text font-bold
+mb-4&quot;&gt;Design Engineering Portfolio&lt;/h1&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;text-xl mb-6
+typewriter&quot;&gt;Innovating Through Design and Precision
+Engineering&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;img
+src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4b74c060-c329-4905-b803-e317997f5b08.png&quot;
+alt=&quot;Professional portrait of a design engineer wearing safety glasses and
+a lab coat, holding a 3D printed prototype, in a modern workshop with CAD
+screens and engineering tools in the background&quot; class=&quot;rounded-full
+w-32 h-32 mx-auto mb-6 shadow-lg&quot;
+onerror=&quot;this.style.display='none';&quot; /&gt;</p>
+
+<p class=MsoNormal>            &lt;a href=&quot;#projects&quot;
+class=&quot;bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold
+hover:bg-gray-100 transition&quot;&gt;Explore My Designs&lt;/a&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- About Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;about&quot; class=&quot;section
+bg-white&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto text-center
+fade-in&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-4xl font-bold mb-8
+text-indigo-600&quot;&gt;About Me&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;grid md:grid-cols-2
+gap-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;p class=&quot;text-lg
+mb-6&quot;&gt;As a dedicated design engineer with over 5 years of experience, I
+specialize in creating innovative mechanical designs and product solutions. My
+expertise covers CAD modeling, prototyping, materials selection, and
+engineering analysis, driving advancements in product development and
+manufacturing efficiency.&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/84cbe6b5-3297-4a2b-bf26-b9b73007cd16.png&quot;
+alt=&quot;Conceptual illustration of a design engineer collaborating on a large
+touchscreen display with holographic product models and engineering schematics
+in a high-tech design lab with robotic arms and precision tools&quot;
+class=&quot;rounded-lg shadow-lg mx-auto&quot;
+onerror=&quot;this.style.display='none';&quot; /&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;space-y-4&quot;&gt;</p>
+
+<p class=MsoNormal>                   
+&lt;div&gt;&lt;strong&gt;Location:&lt;/strong&gt; New York, NY&lt;/div&gt;</p>
+
+<p class=MsoNormal>                   
+&lt;div&gt;&lt;strong&gt;Experience:&lt;/strong&gt; 5+ Years&lt;/div&gt;</p>
+
+<p class=MsoNormal>                   
+&lt;div&gt;&lt;strong&gt;Specialties:&lt;/strong&gt; CAD Design, Prototyping,
+Materials Engineering&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;div&gt;&lt;a href=&quot;#&quot;
+class=&quot;text-indigo-600 hover:underline&quot;&gt;Download
+Resume&lt;/a&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Skills Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;skills&quot; class=&quot;section
+bg-gray-50&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto text-center
+fade-in&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-4xl font-bold mb-8
+text-indigo-600&quot;&gt;My Skills&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;grid md:grid-cols-2
+gap-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3 class=&quot;text-xl font-semibold
+mb-4&quot;&gt;Design Tools&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;space-y-2&quot;&gt;</p>
+
+<p class=MsoNormal>                       
+&lt;div&gt;&lt;span&gt;SolidWorks&lt;/span&gt; &lt;div
+class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot;
+style=&quot;width: 90%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                       
+&lt;div&gt;&lt;span&gt;AutoCAD&lt;/span&gt; &lt;div
+class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot;
+style=&quot;width: 85%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;div&gt;&lt;span&gt;FEA
+Simulation&lt;/span&gt; &lt;div class=&quot;skill-bar&quot;&gt;&lt;div
+class=&quot;skill-fill&quot; style=&quot;width:
+80%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3 class=&quot;text-xl font-semibold
+mb-4&quot;&gt;Engineering Expertise&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;space-y-2&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;div&gt;&lt;span&gt;Materials
+Science&lt;/span&gt; &lt;div class=&quot;skill-bar&quot;&gt;&lt;div
+class=&quot;skill-fill&quot; style=&quot;width:
+85%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                       
+&lt;div&gt;&lt;span&gt;Prototyping&lt;/span&gt; &lt;div
+class=&quot;skill-bar&quot;&gt;&lt;div class=&quot;skill-fill&quot;
+style=&quot;width: 80%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;div&gt;&lt;span&gt;Manufacturing
+Processes&lt;/span&gt; &lt;div class=&quot;skill-bar&quot;&gt;&lt;div
+class=&quot;skill-fill&quot; style=&quot;width:
+75%;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Projects Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;projects&quot; class=&quot;section
+bg-white&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto text-center
+fade-in&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-4xl font-bold mb-8
+text-indigo-600&quot;&gt;Featured Projects&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;projects-grid grid
+md:grid-cols-3 gap-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;project-card bg-gray-50
+p-6 rounded-lg shadow-lg&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8914c0a1-96e1-407e-991f-02f93f8fdf4c.png&quot;
+alt=&quot;Conceptual design render of a sleek consumer electronic device with
+ergonomic curves, metallic finish, and integrated LED indicators in a modern
+studio lighting setup&quot; class=&quot;w-full rounded mb-4&quot;
+onerror=&quot;this.style.display='none';&quot; /&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3 class=&quot;text-xl font-semibold
+mb-2&quot;&gt;Consumer Product Design&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p
+class=&quot;mb-4&quot;&gt;Innovative ergonomic product design combining
+functionality with aesthetic appeal, prototyped using 3D printing and evaluated
+through user testing.&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+class=&quot;text-indigo-600 hover:underline&quot;&gt;View Project&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;project-card bg-gray-50
+p-6 rounded-lg shadow-lg&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f9b11fa2-3058-4399-81c0-a511e9bddc4d.png&quot;
+alt=&quot;Detailed CAD model of a mechanical system component with exploded
+view showing linkages, bearings, and fasteners in a technical engineering
+drawing style with dimensions and annotations&quot; class=&quot;w-full rounded
+mb-4&quot; onerror=&quot;this.style.display='none';&quot; /&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3 class=&quot;text-xl font-semibold
+mb-2&quot;&gt;Mechanical System Redesign&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p
+class=&quot;mb-4&quot;&gt;Redesigned a legacy mechanical assembly for improved
+efficiency and durability, reducing material costs by 15% through FEA analysis
+and optimization.&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot;
+class=&quot;text-indigo-600 hover:underline&quot;&gt;View Project&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;project-card bg-gray-50
+p-6 rounded-lg shadow-lg&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dddc6d18-f6c4-4e08-ac31-21751a1708d1.png&quot;
+alt=&quot;Prototype assembly line setup with various 3D printed parts, CNC
+machined components, and quality control equipment in an industrial workshop
+environment&quot; class=&quot;w-full rounded mb-4&quot;
+onerror=&quot;this.style.display='none';&quot; /&gt;</p>
+
+<p class=MsoNormal>                    &lt;h3 class=&quot;text-xl font-semibold
+mb-2&quot;&gt;Prototyping and Manufacturing&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                    &lt;p
+class=&quot;mb-4&quot;&gt;Developed scalable manufacturing processes for
+custom-engineered parts, incorporating advanced materials and automated
+assembly techniques for quality assurance.&lt;/p&gt;</p>
+
+<p class=MsoNormal>                    &lt;a href=&quot;#&quot; class=&quot;text-indigo-600
+hover:underline&quot;&gt;View Project&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Contact Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section id=&quot;contact&quot; class=&quot;section
+hero-bg text-white&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto text-center
+fade-in&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-4xl font-bold
+mb-8&quot;&gt;Get In Touch&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;form id=&quot;contactForm&quot;
+class=&quot;max-w-md mx-auto&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;input type=&quot;text&quot;
+id=&quot;name&quot; placeholder=&quot;Name&quot; class=&quot;w-full p-3 mb-4
+rounded text-gray-900&quot; required&gt;</p>
+
+<p class=MsoNormal>                &lt;input type=&quot;email&quot;
+id=&quot;email&quot; placeholder=&quot;Email&quot; class=&quot;w-full p-3 mb-4
+rounded text-gray-900&quot; required&gt;</p>
+
+<p class=MsoNormal>                &lt;textarea id=&quot;message&quot;
+placeholder=&quot;Message&quot; rows=&quot;4&quot; class=&quot;w-full p-3 mb-4
+rounded text-gray-900&quot; required&gt;&lt;/textarea&gt;</p>
+
+<p class=MsoNormal>                &lt;button type=&quot;submit&quot;
+class=&quot;bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold
+hover:bg-gray-100 transition&quot;&gt;Send Message&lt;/button&gt;</p>
+
+<p class=MsoNormal>            &lt;/form&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;mt-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot; class=&quot;mr-4
+hover:text-gray-300&quot;&gt;&lt;i class=&quot;fab fa-github
+fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot; class=&quot;mr-4
+hover:text-gray-300&quot;&gt;&lt;i class=&quot;fab fa-linkedin
+fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot;
+class=&quot;hover:text-gray-300&quot;&gt;&lt;i class=&quot;fas fa-envelope
+fa-2x&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;script&gt;</p>
+
+<p class=MsoNormal>        // Smooth scrolling for navigation</p>
+
+<p class=MsoNormal>       
+document.querySelectorAll('a[href^=&quot;#&quot;]').forEach(anchor =&gt; {</p>
+
+<p class=MsoNormal>            anchor.addEventListener('click', function(e) {</p>
+
+<p class=MsoNormal>                e.preventDefault();</p>
+
+<p class=MsoNormal>               
+document.querySelector(this.getAttribute('href')).scrollIntoView({</p>
+
+<p class=MsoNormal>                    behavior: 'smooth'</p>
+
+<p class=MsoNormal>                });</p>
+
+<p class=MsoNormal>            });</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Dark mode toggle</p>
+
+<p class=MsoNormal>        const darkModeToggle =
+document.getElementById('darkModeToggle');</p>
+
+<p class=MsoNormal>        darkModeToggle.addEventListener('click', () =&gt; {</p>
+
+<p class=MsoNormal>            document.body.classList.toggle('dark-mode');</p>
+
+<p class=MsoNormal>            if (document.body.classList.contains('dark-mode'))
+{</p>
+
+<p class=MsoNormal>                darkModeToggle.innerHTML = '&lt;i
+class=&quot;fas fa-sun&quot;&gt;&lt;/i&gt;';</p>
+
+<p class=MsoNormal>            } else {</p>
+
+<p class=MsoNormal>                darkModeToggle.innerHTML = '&lt;i
+class=&quot;fas fa-moon&quot;&gt;&lt;/i&gt;';</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Contact form submission (simple alert for demo)</p>
+
+<p class=MsoNormal>       
+document.getElementById('contactForm').addEventListener('submit', function(e) {</p>
+
+<p class=MsoNormal>            e.preventDefault();</p>
+
+<p class=MsoNormal>            const name =
+document.getElementById('name').value;</p>
+
+<p class=MsoNormal>            const email = document.getElementById('email').value;</p>
+
+<p class=MsoNormal>            const message =
+document.getElementById('message').value;</p>
+
+<p class=MsoNormal>            alert(`Thanks ${name}! I'll get back to you at
+${email}. Message: ${message}`);</p>
+
+<p class=MsoNormal>            this.reset();</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Animation on scroll</p>
+
+<p class=MsoNormal>        const observer = new IntersectionObserver((entries)
+=&gt; {</p>
+
+<p class=MsoNormal>            entries.forEach(entry =&gt; {</p>
+
+<p class=MsoNormal>                if (entry.isIntersecting) {</p>
+
+<p class=MsoNormal>                    entry.target.classList.add('fade-in');</p>
+
+<p class=MsoNormal>                }</p>
+
+<p class=MsoNormal>            });</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        document.querySelectorAll('.section &gt;
+div').forEach(section =&gt; {</p>
+
+<p class=MsoNormal>            observer.observe(section);</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>    &lt;/script&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+<p class=MsoNormal>&lt;/content&gt;</p>
+
+<p class=MsoNormal>&lt;/create_file&gt;</p>
+
+</div>
+
+</body>
+
+</html>
